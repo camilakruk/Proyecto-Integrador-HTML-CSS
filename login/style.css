@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor_registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/Fondo-login.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;;
+    
+}
+.img-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 334px;
+}
+
+.img-logo img{
+    width: 30%;
+}
+
+.caja_registro {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(246, 246, 246, 0.856);
+    padding: 5px;
+}
+h1{
+    color: rgb(17, 17, 14);
+    margin: 30px 60px;
+    font-size: 25px;
+}
+
+.formulario {
+    left: 50px;
+    position: absolute;
+    width: 280px;
+    font-size: 15px;
+    
+}
+
+.formulario a {
+    color:rgb(130, 130, 241);
+}
+
+.campo-texto {
+    width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+
+.caja-btn{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.btn{
+
+    width: 110px;
+    height: 100%;
+    border-radius: 30px;
+}
+.enviar-btn{
+    width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+    font-weight: bold;
+}
+
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(46, 40, 40);
+    font-size: 13px;
+    padding: 10px;
+    
+}
