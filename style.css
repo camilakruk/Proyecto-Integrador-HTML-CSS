@@ -396,7 +396,8 @@ max-width: 200px;
     }
     header .nav-bar li
     {
-       margin-left: 0;
+     
+        margin-left: 0;
     }
 
     header .nav-bar li a
@@ -432,7 +433,7 @@ max-width: 200px;
 
     section
     {
-        padding: 80px;
+        padding: 20px;
     }
 
     .banner .content h2
@@ -443,7 +444,7 @@ max-width: 200px;
     /***** NOSOTROS**** */
     .nosotros_cont
     {
-       flex-direction: column;
+        flex-direction: column;
     }
     .nosotros_cont .descripcion
     {
@@ -453,34 +454,33 @@ max-width: 200px;
 
     
     .nosotros_cont .descripcion .imgBox
-    {
+{
 
-        height: 300px;
-        margin-top: 20px;
-    
-    }
+    height: 300px;
+    margin-top: 20px;
+  
+}
 /***** VEHICULOS**** */
-    .lista_titulo 
-    {
-        font-size: 31px;
-        color: rgb(0, 0, 0);
-        padding: 50px;
-    }
+.lista_titulo {
+    font-size: 31px;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
 
 /***** NUESTRO EQUIPO**** */
-    .title
-    {
-        text-align: center;
-    }
+.title
+{
+    text-align: center;
+}
 
-    .titleText
-    {
-        color: #111;
-        font-size: 1.5em;
-        font-weight: 300;
-        margin-bottom: 15px;
-        text-align: center;
-    }
+.titleText
+{
+    color: #111;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 /***** CONTACTANOS**** */
 
@@ -508,3 +508,4 @@ max-width: 200px;
         color: #fff;
     }
 }
+
