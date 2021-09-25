@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/67f97fb7d5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>NISSAN</title>
 </head>
@@ -164,44 +166,41 @@
             </div>
     </section>
 
-    <!-----------Contactanos------------>
-    <section class="contacto" id="contacto">
-            <form action="" class="contactForm" >
-                <div class="title">
-                    <h2 class="titleText">Contactenos</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
-                </div>
-                <div class="inputBox">
-                    <label for="nombre">
-                        <input type="text" name="nombre" id="" placeholder="Ingrese su nombre">
-                    </label>
-                </div>
-                <div class="inputBox">
-                    <label for="email">
-                        <input type="email" name="email" id="" placeholder="Ingrese su email">
-                    </label>
-                </div>
-                <div class="inputBox">
-                    <label for="telefono">
-                        <input type="tel" name="telefono" id="" placeholder="Ingrese su telefono">
-                    </label>
-                </div>
-                <div class="inputBox">
-                    <label for="mensaje">
-                        <textarea name="mensaje" placeholder="Deje su mensaje..."></textarea>
-                    </label>
-                    <div class="inputBox">
-                        <input type="submit" class="btn2" value="Enviar">
+    <!-----------Contacto------------>
+    <section class="contenedor_contacto" id="contacto">
+        <div class="caja_contacto">
+
+            <h3>Contactenos</h3>
+                <form class="formulario">
+                    
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="" class="campo-texto" id="" placeholder="Ingrese su nombre" required>
+                    <label for="email">Correo electronico:</label>
+                    <input type="email" name="email" class="campo-texto" id="" placeholder="Ingrese su email" required>
+                    <div class="campo-textarea">
+                        <textarea placeholder="Deje su mensaje"></textarea>
                     </div>
-            </form>
+                    <button type="submit" class="enviar-btn"> Enviar</button>
+                    
+                </form>
+            
+        </div>
     </section>
 
-    <div class="copyrightText">
-        <p>Copyright 2021© Camila Kruk. Todos los derechos reservados.</p>
-    </div>
+    <section class="footer">
 
-
+         <h4>Seguinos en</h4>   
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div class="copyrightText">
+            <p>© 2021 Camila Kruk. Todos los derechos reservados.</p>
+        </div>
     
+    </section> 
+   
        <script type="text/javascript"> 
    
         function toggleMenu(){
